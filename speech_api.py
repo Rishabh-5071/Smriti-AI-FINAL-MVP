@@ -1,5 +1,7 @@
+import os
 import speech_recognition as sr
 from typing import Annotated
+from dotenv import load_dotenv
 import google.generativeai as genai
 from pydantic import BaseModel, Field
 from fastapi import FastAPI, HTTPException
@@ -20,7 +22,9 @@ headers = {
 }
 
 # Configure Google Generative AI API
-genai.configure(api_key="AIzaSyCB4ZoigxxVFRfe7JUKnioCTxjoTTMAtKU")
+load_dotenv()  # This loads the variables from .env
+api_key = os.getenv("GOOGLE_API_KEY") #
+genai.configure(api_key=api_key)
 
 input_text = """Analyze the following conversation between two persons, 
 Identify the relationship between them (e.g., friend, 
