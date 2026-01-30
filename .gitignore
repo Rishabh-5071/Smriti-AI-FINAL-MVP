@@ -5,3 +5,4 @@ temp_frame.jpg
 venv
 .DS_Store
 faiss_index
+frontend/
