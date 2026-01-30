@@ -1,11 +1,12 @@
-# Smriti.AI Frontend
+# Smriti.AI 
 
-Modern React frontend for the Smriti.AI dementia care assistant application.
+Smriti.AI is a comprehensive dementia care assistant that bridges the gap between memory loss and daily life. Built to support both patients and caregivers, the application provides a suite of cognitive tools:
 
-## Features
+ - Contextual Face Recognition: Instantly identifies visitors and family members, displaying their name and relationship to help the user connect.
+ - Smart Reminders: automated alerts for medications and daily routines.
+ - Conversation History: A logging system that helps users recall past interactions and details.
+ - Caregiver Dashboard: A centralized hub for families to manage profiles, photos, and monitor their loved one's well-being.
 
-- 🎨 Modern, clean UI with Tailwind CSS
-- 📱 Responsive design
 - 👤 Patient profile management
 - 👨‍👩‍👧‍👦 Family & relations management
 - ⏰ Reminder system
@@ -18,10 +19,17 @@ Modern React frontend for the Smriti.AI dementia care assistant application.
 
 - Node.js 18+ and npm
 - Backend API running on `http://localhost:8000`
+- Python 3.9 - 3.10
 
 ### Installation
 
 ```bash
+#Start Backend
+python main.py
+
+#Change Directory
+cd frontend
+
 # Install dependencies
 npm install
 
@@ -48,12 +56,9 @@ src/
 └── App.jsx        # Main app component
 ```
 
-## API Integration
-
-The frontend communicates with the FastAPI backend running on port 8000. Make sure the backend is running before starting the frontend.
-
 ## Technologies
 
+- Python 3.9 - 3.10
 - React 18
 - React Router
 - Tailwind CSS
