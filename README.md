@@ -66,3 +66,4 @@ src/
 - Lucide React (icons)
 - Vite
 
+# Smriti-AI
