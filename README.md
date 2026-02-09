@@ -1,6 +1,6 @@
-# Smriti.AI 
+# Mento.AI 
 
-Smriti.AI is a comprehensive dementia care assistant that bridges the gap between memory loss and daily life. Built to support both patients and caregivers, the application provides a suite of cognitive tools:
+Mento.AI is a comprehensive dementia care assistant that bridges the gap between memory loss and daily life. Built to support both patients and caregivers, the application provides a suite of cognitive tools:
 
  - Contextual Face Recognition: Instantly identifies visitors and family members, displaying their name and relationship to help the user connect.
  - Smart Reminders: automated alerts for medications and daily routines.
@@ -66,4 +66,5 @@ src/
 - Lucide React (icons)
 - Vite
 
-# Smriti-AI
+# Mento-AI
+# Mento-AI
