@@ -65,6 +65,3 @@ src/
 - Axios
 - Lucide React (icons)
 - Vite
-
-# Mento-AI
-# Mento-AI
